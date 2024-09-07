@@ -1,0 +1,18 @@
+server.port: 3000
+
+spring:
+  application:
+    name: istock
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+logging:
+  level:
+    org:
+      apache:
+        kafka:
+          clients: WARN
+        common: WARN
+        server: WARN
+        network: WARN
